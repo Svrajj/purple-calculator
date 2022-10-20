@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, purple, blue);
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: 45%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px black, -12px -12px 20px black;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style: double;
+}
+
+.display #screen {
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Montserrat';
+    padding-right: .5em;
+    background-color: black;
+    border-radius: 6px;
+    box-shadow: inset 2px 2px 2px aliceblue, inset -2px -2px 2px aliceblue;
+
+}
+
+.btns {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.btns .row button {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px aliceblue, -2px -2px 1px aliceblue;
+    background-color: black;
+    font-family: 'Montserrat';
+    color: aliceblue;
+    transform: .1s;
+
+}
+ 
+.btns .row button:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(to bottom right, purple, blue);
+    color: aliceblue;
+
+}
